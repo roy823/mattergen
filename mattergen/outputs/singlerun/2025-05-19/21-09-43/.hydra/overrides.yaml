@@ -1,0 +1,8 @@
+- +mode=generate
+- +env.results_path=data\generated\LiPS_ehull_0p05
+- +generate.pretrained_name=chemical_system_energy_above_hull
+- +generate.batch_size=8
+- +generate.num_samples_to_generate=100
+- +generate.properties_to_condition_on="{'chemical_system':'Li-P-S','energy_above_hull':0.05}"
+- +generate.guidance_scale=1.0
+- +generate.record_trajectories=false
